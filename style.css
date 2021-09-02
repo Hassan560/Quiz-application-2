@@ -1,0 +1,35 @@
+.text-center {
+  width: 65%;
+  margin: 20px auto;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body {
+  text-align: left;
+}
+.card-footer {
+  text-align: right;
+}
+.card-text{
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: rgba(0,0,0,.03);
+    border-radius: 5px;
+    
+}
+.card-text:hover{
+    background-color: #0d6efd;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.card-text.active{
+  background-color: #0d6efd;
+  color: white;
+}
+.card-title{
+    margin-bottom: 20px!important;
+}
